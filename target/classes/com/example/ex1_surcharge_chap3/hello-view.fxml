@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ex1_surcharge_chap3.HelloController">
+   <children>
+      <Button layoutX="83.0" layoutY="234.0" mnemonicParsing="false" onMouseClicked="#btnArticle3" prefHeight="38.0" prefWidth="87.0" text="Article3" textFill="#21dfeb">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="83.0" layoutY="148.0" mnemonicParsing="false" onMouseClicked="#btnArticle2" prefHeight="25.0" prefWidth="87.0" text="Article2" textFill="#21dfeb">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="83.0" layoutY="74.0" mnemonicParsing="false" onMouseClicked="#btnArticle1" prefHeight="25.0" prefWidth="87.0" text="Article1" textFill="#21dfebba">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="235.0" layoutY="303.0" mnemonicParsing="false" onMouseClicked="#btnPrixFinal" prefHeight="43.0" prefWidth="175.0" text="Prix par quantité :" textFill="#21dfeb">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtQuantite" layoutX="52.0" layoutY="312.0" />
+      <Label layoutX="220.0" layoutY="250.0" text="Code Barre :" textFill="#0727dead">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrixFinal" layoutX="419.0" layoutY="316.0" prefHeight="25.0" prefWidth="77.0" textFill="#0727de">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Label fx:id="lblPrixCodeBarre" layoutX="331.0" layoutY="250.0" prefHeight="26.0" prefWidth="199.0" textFill="#0727de">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrixUnite" layoutX="346.0" layoutY="195.0" prefHeight="17.0" prefWidth="65.0" textFill="#0727de">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Label fx:id="lblDescription" layoutX="334.0" layoutY="121.0" prefHeight="71.0" prefWidth="257.0" textFill="#0727de">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNomArticle" layoutX="318.0" layoutY="81.0" prefHeight="38.0" prefWidth="257.0" textFill="#0727de">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="235.0" layoutY="77.0" text="Nom :" textFill="#0727dead">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="214.0" layoutY="191.0" text="Prix à l'unité :" textFill="#0727dead">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="130.0" text="Description :" textFill="#0727dead">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
